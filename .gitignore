@@ -1,0 +1,6 @@
+# Do not upload sensitive captures
+data/
+
+# Python cache
+__pycache__/
+*.pyc
