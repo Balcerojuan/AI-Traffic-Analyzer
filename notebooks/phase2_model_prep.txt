@@ -1,0 +1,17 @@
+Phase 2 (Oct 26 – Nov 1): AI Modeling Plan
+
+Goal: Use captured network traffic data to start building a basic intrusion/anomaly detector.
+
+Steps:
+1. Load normal_traffic_oct26_raw.csv using pandas.
+2. Extract useful features:
+   - protocol
+   - packet length (size)
+   - source port / destination port (if available)
+   - timestamps (to compute timing between packets)
+3. Label this dataset as "normal" baseline traffic.
+4. Train two simple classifiers:
+   - DecisionTreeClassifier
+   - RandomForestClassifier
+5. Generate accuracy and confusion matrix.
+6. Document results in README.md and DEVLOG.md.
